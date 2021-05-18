@@ -1,10 +1,11 @@
 import React from 'react';
+import './Search.scss';
 
 const Search = ({id,value,onChange,type,placeholder}) => {
     return (
         <>
-            {/* <label htmlFor={id}>{children}</label>&nbsp; */}
             <input
+            className='search'
             id={id}
             type={type}
             value={value}

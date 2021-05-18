@@ -1,4 +1,26 @@
+@font-face {
+	font-family: 'Sega';
+	src: url('./sega-logo/SEGA.TTF');
+}
+
 .robots {
 display: flex;
 flex-wrap: wrap;
+position: relative;
+left: 50%;
+transform: translate(-50%,0);
+}
+
+.link {
+cursor: pointer;
+}
+.load {
+    font-family: 'Sega', sans-serif;
+    font-size: 2rem;
+    color: #86F4D0;
+}
+.title {
+    font-family: 'Sega', sans-serif;
+    font-size: 3rem;
+    color: #86F4D0;
 }
